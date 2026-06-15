@@ -2,9 +2,9 @@
 
 ## Project Overview
 
-AI SQL Assistant Agent is a Generative AI-powered tool that converts natural language questions into SQL queries.
+AI SQL Assistant Agent is a Generative AI-powered assistant that helps users generate, understand, and improve SQL queries using natural language.
 
-The project is designed to help Data Analysts, Business Analysts, Data Engineers, and SQL learners quickly generate SQL queries from business requirements.
+The project is designed for Data Analysts, Business Analysts, Data Engineers, and SQL learners.
 
 ## Features Completed
 
@@ -15,13 +15,21 @@ The project is designed to help Data Analysts, Business Analysts, Data Engineers
 * AI SQL Query Generation
 * SQL Query Export
 
+### Day 2
+
+* SQL Query Explanation
+* SQL Optimization Suggestions
+* SQL Best Practices Review
+* SQL Performance Analysis
+* SQL Code Quality Evaluation
+
 ## Target Users
 
 * Data Analysts
 * Business Analysts
 * Data Engineers
-* Data Science Students
 * SQL Learners
+* Data Science Students
 
 ## Technologies Used
 
@@ -40,36 +48,46 @@ User Question
 
 ↓
 
-Prompt Engineering
+SQL Query Generation
 
 ↓
 
-AI SQL Generation
+SQL Explanation
 
 ↓
 
-SQL Output
+Performance Analysis
+
+↓
+
+Optimization Suggestions
+
+↓
+
+Best Practices Review
 
 ## Sample Use Cases
 
 * SQL Learning
-* Query Generation
+* SQL Interview Preparation
+* Query Optimization
 * Analytics Reporting
-* Business Intelligence
-* Database Exploration
+* Database Development
 
 ## Upcoming Features
 
-### Day 2
+### Day 3
 
-* SQL Query Explanation
-* SQL Optimization Suggestions
-* SQL Best Practices Review
+* SQL Error Detection
+* SQL Query Correction
+* SQL Practice Question Generator
+* SQL Interview Preparation Assistant
 
 ## Project Status
 
-Day 1 of Development
+Day 2 of Development
 
 ## Author
 
 Kartik Dhyani
+
