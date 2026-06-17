@@ -4,45 +4,48 @@
 
 AI SQL Assistant Agent is a Generative AI-powered assistant that helps users generate, understand, optimize, debug, and learn SQL queries using natural language.
 
-The project is designed for Data Analysts, Business Analysts, Data Engineers, Data Science students, and SQL learners who want to improve their SQL skills and productivity.
+The project is designed for Data Analysts, Business Analysts, Data Engineers, Data Science students, and SQL learners.
 
 ---
 
-## Features Completed
+## Features
 
-### Day 1 - SQL Query Generation
+### SQL Query Generation
 
 - Database Schema Input
 - Natural Language Query Input
 - AI SQL Query Generation
 - SQL Query Export
 
-### Day 2 - SQL Analysis & Optimization
+### SQL Analysis
 
 - SQL Query Explanation
-- SQL Optimization Suggestions
-- SQL Performance Analysis
-- SQL Code Quality Review
-- SQL Best Practices Recommendations
+- Query Logic Breakdown
+- SQL Best Practices Review
+- SQL Code Quality Assessment
 
-### Day 3 - SQL Learning & Debugging
+### SQL Optimization
+
+- Performance Analysis
+- Optimization Suggestions
+- Index Recommendations
+
+### SQL Debugging
 
 - SQL Error Detection
 - SQL Query Correction
+- Error Explanation
+
+### SQL Learning
+
 - SQL Practice Question Generation
-- SQL Interview Preparation Assistant
-- SQL Learning Support
+- SQL Interview Preparation
+- SQL Cheat Sheet Generation
 
----
+### Database Design
 
-## Target Users
-
-- Data Analysts
-- Business Analysts
-- Data Engineers
-- Data Science Students
-- SQL Learners
-- Database Developers
+- Database Schema Generation
+- Table Relationship Suggestions
 
 ---
 
@@ -66,7 +69,7 @@ Natural Language Question
 
 ↓
 
-AI SQL Query Generation
+AI SQL Generation
 
 ↓
 
@@ -74,11 +77,7 @@ SQL Explanation
 
 ↓
 
-Performance Analysis
-
-↓
-
-Optimization Suggestions
+Optimization Review
 
 ↓
 
@@ -92,24 +91,64 @@ Query Correction
 
 Interview Preparation
 
+↓
+
+Database Schema Generation
+
+↓
+
+SQL Cheat Sheet Generation
+
+---
+
+## Skills Demonstrated
+
+- SQL
+- Python
+- Generative AI
+- Prompt Engineering
+- Data Analytics
+- Database Concepts
+- Problem Solving
+
 ---
 
 ## Sample Use Cases
 
-### SQL Generation
+- SQL Learning
+- SQL Interview Preparation
+- Query Optimization
+- Database Development
+- Analytics Reporting
+- Business Intelligence
 
-Input:
+---
 
-"Show top 5 customers by total spending."
+## Repository Structure
 
-Output:
+AI-SQL-Assistant-Agent/
 
-```sql
-SELECT c.customer_name,
-       SUM(o.amount) AS total_spending
-FROM Customers c
-JOIN Orders o
-ON c.customer_id = o.customer_id
-GROUP BY c.customer_name
-ORDER BY total_spending DESC
-LIMIT 5;
+├── SQL_Assistant_Agent.ipynb
+
+└── README.md
+
+---
+
+## Future Enhancements
+
+- Streamlit Web Application
+- Multi-Database Support
+- SQL Execution Engine
+- Query Visualization
+
+---
+
+## Project Status
+
+Completed
+
+---
+
+## Author
+
+Kartik Dhyani
